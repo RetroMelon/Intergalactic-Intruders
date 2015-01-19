@@ -1,0 +1,52 @@
+CHANGELOG STARTS AT: 11/10/11
+
+11/10/11:
+progress so far:
+	*Screen class is complete - added aspect ratio feature.
+	*Keyboard input system is complete, although new keys may be added at later dates.
+	*Framerate class is nearing completion, just get and set methods remaining.
+	*Created splashscreen class, however this may change in the future, if we decide that it should inherit from the gamemode class.
+	*created a folder for storing images.
+
+
+27/10/11:
+	*Finished splashscreen class.
+	*Added optional transparent "CLICK TO FOCUS!" overlay on screen class, which also required a focus listener.
+	*Created most of entity class- still to a good applyangledforce method, and maybe entity collision
+	*Completed sprite class.
+	*Completed spritestore class.
+	*Completed the image loading process that is in the entity class.
+	*Relocated splashscreen images to Images/Logos.
+
+28/10/11:
+	*added some physics to entity class.
+	*entity glass now has the direction, acceleration, location, maxdirs and friction properties.
+
+30/10/11:
+	*finished entity to entity collision function in entity class.
+	*added drawing modes to entity class. can now draw normally, or clipped, or stretched.
+	*added "directload" method to spritestore, which allows it to load an image directly and return it, without storing it.
+	*added addscaledsprite methods to spritestore, to allow you to load, and then scale a sprite within the spritestore.
+
+31/10/11:
+	*finished sound and soundstore classes.
+	*rearranged file layout. the actual java and class files are in a folder, and the resources are in a separate folder beside that. the project then links to those folders
+
+20/11/11:
+	*WOW, i haven't worked on this in a while.
+	*finished the game class. so we can now create a game by extending this class, rather than making every single one from scratch.
+
+23/11/11:
+	*added a method of escaping from the pause loops by setting "breakpause" to true. breakpause is then reset to false after the loops are exited.
+	*created some test classes like spaceinvaders and mainmenu
+
+19/11/11:
+	*yet again, it's been a while since i've updated this project.
+	*updated entity class. now contains 3 collision modes along with easier to use getsize methods.
+	
+20/11/11:
+	*added collision detection for checking if the object collides with a point on the x or y axis. ie, if it collides with a horizontal or vertical line at a certain point.
+	
+22/11/11:
+	*added methods for adding and playing sounds from entity class.
+	*added some drawing capabilities to the sprite class including transparency.

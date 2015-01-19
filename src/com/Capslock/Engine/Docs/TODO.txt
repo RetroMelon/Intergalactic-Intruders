@@ -1,0 +1,35 @@
+KEY:	*D = done
+		*X = will not be getting done
+		*W = work in progress
+
+still to implement:
+D	*create addsound methods in entity class. and methods for playing sounds
+X	*fix the pixel offset on collisions
+X	*make an applyangledforce function
+D	*move all drawing methods from entity to sprite
+D	*draw up network class
+X	*implement a draw-a-pie-chart-of-the-time-taken-for-each-process(eg, render, update, input) thing. you may have to update the "game" class. adding stuff before and after the main loop.
+W	*the entity class is a mess... review it
+D	*the getsizex() and getsizey() functiosn may not be working properly in the entity class
+X	*consider implementing different interfaces for entities, eg, collidable, physical, drawable, 
+X	*create an intro animation for each game.
+X	*provide some default animations, like fading out and in.
+	
+	
+
+Other larger tasks:
+	*make a note of everything you have learned doing the project, and how to do each one. so you remember
+	*write up implementation notes on most of the key classes
+	
+
+THE NEXT ENGINE WILL FEATURE:
+	*more powerful sound functionality - allowing for muting of certain sounds, changing volume/pitch.
+	*better method of pausing
+	*rotation and better physics for entities
+	*better keyboard input
+	*functionality for animations and basic particle effects
+	*multithreading capabilities for improved performance
+	*map and/or world classes that can load world files. 
+	*collisions with environment
+	*a camera that can track the movment of objects
+	*better means of keeping track of peformance, eg. pie charts, graphs, figures overlay telling you about times for different operations.
