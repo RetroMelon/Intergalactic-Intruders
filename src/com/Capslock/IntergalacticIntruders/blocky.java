@@ -12,7 +12,7 @@ public class blocky extends boss{
 
 	public blocky(screen mainscreen) {
 		super(mainscreen);
-		name = "Zombie Blocky!";
+		name = "Blocky!";
 		addsprite(I_Intruders.blockysprite);
 		addsprite(I_Intruders.blockysprite_a);
 		bombcolor = Color.red;
