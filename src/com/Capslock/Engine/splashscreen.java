@@ -34,7 +34,7 @@ public class splashscreen {
 		
 		//getting the image resource
 		//Logos/"+imagefilename
-		try{splashimage = new ImageIcon(getClass().getResource("/Engine/Resources/Images/Logos/"+imagefilename)).getImage();}catch(Exception e){System.out.println("Failed to Load SplashImage Error:  "+e.getMessage()); return;}
+		try{splashimage = new ImageIcon(getClass().getResource("/com/Capslock/Engine/Resources/Images/Logos/"+imagefilename)).getImage();}catch(Exception e){System.out.println("Failed to Load SplashImage Error:  "+e.getMessage()); return;}
 		
 		//scaling the image, taking into account the screen size, and the scalefactor. also takes uses smooth scaling algorithm, because we want our splashscreen to look good!
 		int sizex = (int) Math.ceil(mainscreen.getsizex()*scale);
