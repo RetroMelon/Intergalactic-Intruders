@@ -112,7 +112,7 @@ public class I_Intruders {
 		//creating the screen to be used for the game.
 		mainscreen = new screen(title, windowx, windowy);
 		
-		helixnebula = new sound("/Resources/Sounds/Music/helixnebula.au");
+		helixnebula = new sound("/Resources/Sounds/Music/helixnebula.wav");
 		musicplaying=true;
 		helixnebula.loop();
 		
